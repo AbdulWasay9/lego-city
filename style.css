@@ -82,7 +82,9 @@ color: #f9faf8;
 
 }
 
-
+.main{
+    padding-bottom: 50px;
+}
 
 .main-items {
     align-items: center;
@@ -120,4 +122,23 @@ border-radius: 15px;}
 .text{
     padding-top: 30px;
     max-width: 250px;
+}
+
+.testimonials{
+    display: flex;
+flex-direction: column;
+background-color: #E5E7EB;
+padding: 50px 200px;
+}
+
+.testimonials-text{
+    text-align: center;
+    font-size: 36px;
+color: #1F2937;
+}
+.testimonials-qoute{
+    text-align: end;
+    padding-bottom: 20px;
+padding-right: 300px;
+font-size: 18px;
 }
