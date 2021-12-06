@@ -92,6 +92,7 @@ color: #f9faf8;
  gap: 20px;
 
     display:flex;
+    flex-wrap: wrap;
 }
 
 .main-items img
@@ -142,3 +143,44 @@ color: #1F2937;
 padding-right: 300px;
 font-size: 18px;
 }
+
+.signup{
+    background-color: #3882F6;
+margin: 50px 350px;
+padding: 50px 100px;
+display: flex;
+align-items: center;
+color: white;
+border-radius: 5px;
+
+}
+
+.signup-text
+{margin: 0px, 50px;
+    flex: 1;
+    text-align: left;
+font-size: 22px;}
+
+
+.signup-button
+{text-align: left; 
+   flex: 1;
+}
+
+.signup-button button
+{ 
+color:white;
+font-family: 'Roboto', arial;
+border-color: #fff;
+border-radius: 10px;
+background-color: #3882F6;
+padding: 15px 30px;
+font-size: 25px;
+font-weight: bolder;
+}
+
+.footer{background-color: #1F2937;
+    color: #fff;
+padding: 25px;
+text-align: center;
+font-size: 18px;}
